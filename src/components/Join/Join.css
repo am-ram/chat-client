@@ -1,0 +1,93 @@
+html, body {
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #1A1A1D;
+}
+
+.joinInnerContainer {
+  width: 20%;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 15px;
+  
+}
+
+.heading {
+  color: rgb(104, 165, 235);
+  font-size: 3.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  
+  
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}
+.title {
+  color: white;
+  font-size: 2rem;
+}
+
+.footer{
+  color: #fff;
+  font-size: 18px;
+  font-family: monospace;
+  
+}
+
+.heading1 {
+  color: #6ea0f7;
+  font-size: 3rem;
+  border-bottom: 2px solid white;
+}
